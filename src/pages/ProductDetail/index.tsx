@@ -3,7 +3,6 @@ import Products from "../Homes/Products";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
-import Loading from "src/components/Loading";
 import { IProduct } from "src/interfaces/product";
 
 const ProductDetail = () => {
